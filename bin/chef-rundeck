@@ -62,7 +62,7 @@ class ChefRundeckCLI
      :short => "-b ADDRESS",
      :long => "--bind ADDRESS",
      :description => "The address to bind to, default 127.0.0.1, use 0.0.0.0 to bind to all interfaces",
-     :default => 127.0.0.1
+     :default => '127.0.0.1'
 
    option :pidfile,
      :short => "-P FILE",
